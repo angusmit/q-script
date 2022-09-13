@@ -66,8 +66,8 @@ Q6
 
 Q7
 /What is the maximum number of arguments a kdb+ function can have? What would be 
-some ways you could get around this limit?
+/some ways you could get around this limit?
 
-/solution
-max of number of arguments a kdb+ function as of Sept 2015 can have is 8.
-We will get "'params error" if we exceed this limit. 
+//solution
+/max of number of arguments a kdb+ function as of Sept 2015 can have is 8.
+/We will get "'params error" if we exceed this limit. 
