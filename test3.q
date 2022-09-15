@@ -35,23 +35,25 @@ f: {[sd;ed]d:sd + til(ed+1)-sd;count where 1=d mod 7}
 
 /Q4.1
 /Create the following table, tab (*note the null values at rows 5 and 11).
-/a  b
-/----
-/0  0
-/1  1
-/2  2
-/3  3
-/4  4
-/5
-/6  0
-/7  1
-/8  2
-/9  3
-/10 4
-/11
-/12 0
-/13 1
-/14 2
+/
+a  b
+----
+0  0
+1  1
+2  2
+3  3
+4  4
+5
+6  0
+7  1
+8  2
+9  3
+10 4
+11
+12 0
+13 1
+14 2
+\
 
 /Starting from this table, complete the following actions to produce a table tab2 from tab: 
 /Q4.2 - Where there is no b value in the table, add in the number 10.
