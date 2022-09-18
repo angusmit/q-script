@@ -6,8 +6,7 @@
 /solution 1
 {x where 3=sum each x in "AEIOU"}names 
 {x where(count each distinct each x)=count each x}names 
-{x where(3=sum each x in "AEIOU")&(count each distinct each x)=count each 
-x}names 
+{x where(3=sum each x in "AEIOU")&(count each distinct each x)=count each x}names 
 
 /Q2
 /Write a function that takes a list and returns a list of lists, each sublist being the element from the first list followed by the number of times it occurs at this point in list:
